@@ -104,7 +104,7 @@
           "static": true,
           "settings": {
             "product_card_gap": 8,
-            "inherit_color_scheme": true,
+            "inherit_color_scheme": false,
             "color_scheme": "",
             "border": "none",
             "border_width": 1,
@@ -203,7 +203,7 @@
                     "show_tax_info": false,
                     "type_preset": "",
                     "width": "100%",
-                    "alignment": "left",
+                    "alignment": "center",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
                     "line_height": "normal",
