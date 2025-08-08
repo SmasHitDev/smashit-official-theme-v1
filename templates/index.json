@@ -25,78 +25,15 @@
             "pixel_size_mobile": 120
           },
           "blocks": {}
-        },
-        "logo_38acff": {
-          "type": "logo",
-          "name": "t:names.logo",
-          "settings": {
-            "inverse": true,
-            "font": "heading",
-            "unit": "pixel",
-            "percent_width": 100,
-            "pixel_height": 240,
-            "custom_mobile_size": false,
-            "unit_mobile": "pixel",
-            "percent_width_mobile": 100,
-            "pixel_height_mobile": 64,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "text_RUeppm": {
-          "type": "text",
-          "name": "t:names.text",
-          "settings": {
-            "text": "<h1>Che hit sta pagina</h1>",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "left",
-            "type_preset": "rte",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "var(--color-foreground)",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "button_3cL8kq": {
-          "type": "button",
-          "name": "t:names.button",
-          "settings": {
-            "label": "Shop now",
-            "link": "shopify://collections/all",
-            "open_in_new_tab": false,
-            "style_class": "link",
-            "width": "custom",
-            "custom_width": 15,
-            "width_mobile": "fit-content",
-            "custom_width_mobile": 100
-          },
-          "blocks": {}
         }
       },
       "block_order": [
-        "spacer_iqNMWF",
-        "logo_38acff",
-        "text_RUeppm",
-        "button_3cL8kq"
+        "spacer_iqNMWF"
       ],
       "name": "t:names.hero",
       "settings": {
-        "media_type_1": "video",
+        "media_type_1": "image",
+        "image_1": "shopify://shop_images/ChatGPT_Image_Aug_8_2025_10_35_28_PM.png",
         "media_type_2": "image",
         "link": "",
         "open_in_new_tab": false,
@@ -107,13 +44,13 @@
         "align_baseline": false,
         "horizontal_alignment_flex_direction_column": "center",
         "vertical_alignment_flex_direction_column": "space-between",
-        "gap": 32,
+        "gap": 38,
         "section_width": "page-width",
-        "section_height": "medium",
+        "section_height": "large",
         "section_height_custom": 50,
-        "color_scheme": "scheme-6",
+        "color_scheme": "scheme-1",
         "toggle_overlay": true,
-        "overlay_color": "",
+        "overlay_color": "#d3cec517",
         "overlay_style": "solid",
         "gradient_direction": "to top",
         "blurred_reflection": false,
@@ -167,11 +104,11 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2><strong>SmasHit Sport – Energia, Passione, Performance</strong></h2>",
+                "text": "<h1><strong>SmasHit Sport – Energia, Passione, Performance</strong></h1>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
-                "type_preset": "h3",
+                "type_preset": "h2",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
                 "line_height": "normal",
@@ -192,7 +129,7 @@
             "text_RL6WMB": {
               "type": "text",
               "settings": {
-                "text": "<p>SmasHit Sport è il punto di riferimento per chi vive lo sport a 360°.<br/><br/>Il nostro e-commerce riunisce articoli e accessori delle migliori società sportive, offrendo un’ampia gamma di prodotti di qualità per ogni disciplina.</p><p>Che tu sia un atleta professionista, un appassionato o un principiante, su SmasHit Sport trovi sempre ciò di cui hai bisogno per allenarti, competere e migliorarti.</p>",
+                "text": "<h3>SmasHit Sport è il punto di riferimento per chi vive lo sport a 360°.<br/><br/>Il nostro e-commerce riunisce articoli e accessori delle migliori società sportive, offrendo un’ampia gamma di prodotti di qualità per ogni disciplina.</h3><h3>Che tu sia un atleta professionista, un appassionato o un principiante, su SmasHit Sport trovi sempre ciò di cui hai bisogno per allenarti, competere e migliorarti.</h3>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
@@ -345,7 +282,7 @@
                 "text_YV7F8h": {
                   "type": "text",
                   "settings": {
-                    "text": "<p><strong>Multi-disciplinare</strong></p>",
+                    "text": "<h1><strong>Multi-disciplinare</strong></h1>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
@@ -370,7 +307,7 @@
                 "text_6rnppw": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Un unico shop per attrezzature, abbigliamento e accessori di diversi sport.</p>",
+                    "text": "<h3>Un unico shop per attrezzature, abbigliamento e accessori di diversi sport.</h3>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
@@ -493,7 +430,7 @@
                 "text_jDPAGF": {
                   "type": "text",
                   "settings": {
-                    "text": "<p><strong>Prodotti ufficiali</strong></p>",
+                    "text": "<h1><strong>Prodotti ufficiali</strong></h1>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
@@ -518,7 +455,7 @@
                 "text_BLiJ7M": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Solo articoli originali e garantiti dalle società sportive partner</p>",
+                    "text": "<h3>Solo articoli originali e garantiti dalle società sportive partner</h3>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
@@ -641,7 +578,7 @@
                 "text_7e6WCL": {
                   "type": "text",
                   "settings": {
-                    "text": "<p><strong>Qualità e performance</strong></p>",
+                    "text": "<h1><strong>Qualità e performance</strong></h1>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
@@ -666,7 +603,7 @@
                 "text_CcjfAf": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Materiali affidabili e tecnologie innovative per massimizzare le tue prestazioni</p>",
+                    "text": "<h3>Materiali affidabili e tecnologie innovative per massimizzare le tue prestazioni</h3>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "center",
