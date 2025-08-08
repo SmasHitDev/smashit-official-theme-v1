@@ -17,6 +17,7 @@
         "email_signup_bPG4HW": {
           "type": "email-signup",
           "name": "t:names.email_signup",
+          "disabled": true,
           "settings": {
             "width": "fill",
             "custom_width": 50,
@@ -46,7 +47,7 @@
             "open_in_new_tab": false,
             "content_direction": "row",
             "vertical_on_mobile": true,
-            "horizontal_alignment": "flex-start",
+            "horizontal_alignment": "center",
             "vertical_alignment": "flex-start",
             "align_baseline": false,
             "horizontal_alignment_flex_direction_column": "flex-start",
@@ -71,8 +72,8 @@
             "overlay_color": "#00000026",
             "overlay_style": "solid",
             "gradient_direction": "to top",
-            "padding-block-start": 48,
-            "padding-block-end": 48,
+            "padding-block-start": 30,
+            "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0
           },
@@ -80,6 +81,7 @@
             "menu_yyxUYc": {
               "type": "menu",
               "name": "t:names.menu",
+              "disabled": true,
               "settings": {
                 "menu": "footer",
                 "heading": "Shop",
@@ -266,12 +268,12 @@
         "horizontal_alignment": "flex-start",
         "vertical_alignment": "center",
         "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "flex-start",
+        "horizontal_alignment_flex_direction_column": "center",
         "vertical_alignment_flex_direction_column": "center",
         "gap": 0,
         "section_width": "page-width",
         "section_height": "",
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-5",
         "background_media": "none",
         "video_position": "cover",
         "background_image_position": "cover",
