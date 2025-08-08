@@ -25,7 +25,7 @@
             "align_baseline": false,
             "horizontal_alignment_flex_direction_column": "center",
             "vertical_alignment_flex_direction_column": "center",
-            "gap": 12,
+            "gap": 32,
             "width": "fill",
             "custom_width": 100,
             "width_mobile": "fit-content",
@@ -94,7 +94,7 @@
             "inherit_color_scheme": false,
             "color_scheme": "scheme-4",
             "border": "solid",
-            "border_width": 5,
+            "border_width": 0,
             "border_opacity": 100,
             "border_radius": 46
           },
@@ -153,7 +153,7 @@
       "settings": {
         "layout_type": "carousel",
         "carousel_on_mobile": false,
-        "columns": 4,
+        "columns": 3,
         "mobile_columns": "2",
         "columns_gap": 16,
         "bento_gap": 16,
@@ -161,11 +161,11 @@
         "max_collections": 4,
         "icons_style": "arrow",
         "icons_shape": "circle",
-        "section_width": "full-width",
-        "gap": 0,
+        "section_width": "page-width",
+        "gap": 8,
         "color_scheme": "scheme-2",
         "padding-block-start": 60,
-        "padding-block-end": 0
+        "padding-block-end": 60
       }
     }
   },
