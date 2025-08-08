@@ -205,7 +205,7 @@
                   "type": "_social-link",
                   "name": "Facebook",
                   "settings": {
-                    "link": "https://www.facebook.com"
+                    "link": "https://www.facebook.com/p/Salussola-Volley-61562632874251"
                   },
                   "blocks": {}
                 },
@@ -213,7 +213,7 @@
                   "type": "_social-link",
                   "name": "Instagram",
                   "settings": {
-                    "link": "https://www.instagram.com"
+                    "link": "https://www.instagram.com/salussolavolley/"
                   },
                   "blocks": {}
                 },
@@ -228,6 +228,7 @@
                 "social_link_m7qatK": {
                   "type": "_social-link",
                   "name": "X / Twitter",
+                  "disabled": true,
                   "settings": {
                     "link": "https://x.com"
                   },
@@ -237,7 +238,7 @@
                   "type": "_social-link",
                   "name": "YouTube",
                   "settings": {
-                    "link": "https://www.youtube.com"
+                    "link": "https://www.youtube.com/channel/UCMJbNRHNSzrubqxuf_RJE1w"
                   },
                   "blocks": {}
                 }
