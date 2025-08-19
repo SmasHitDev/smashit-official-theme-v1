@@ -30,6 +30,10 @@
       "block_order": [
         "spacer_iqNMWF"
       ],
+      "custom_css": [
+        "@media (max-width: 767px) {.hero {display: none; }}",
+        "@media (min-width: 768px) {.hero {display: block; }}"
+      ],
       "name": "t:names.hero",
       "settings": {
         "media_type_1": "image",
@@ -46,7 +50,61 @@
         "vertical_alignment_flex_direction_column": "space-between",
         "gap": 38,
         "section_width": "page-width",
-        "section_height": "medium",
+        "section_height": "large",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-1",
+        "toggle_overlay": true,
+        "overlay_color": "#d3cec517",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "blurred_reflection": true,
+        "reflection_opacity": 40,
+        "padding-block-start": 0,
+        "padding-block-end": 48
+      }
+    },
+    "hero_VPNRRa": {
+      "type": "hero",
+      "blocks": {
+        "spacer_BPiTML": {
+          "type": "spacer",
+          "name": "t:names.spacer",
+          "settings": {
+            "size": "percent",
+            "percent_size": 0,
+            "pixel_size": 36,
+            "custom_mobile_size": false,
+            "size_mobile": "percent",
+            "percent_size_mobile": 100,
+            "pixel_size_mobile": 120
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "spacer_BPiTML"
+      ],
+      "custom_css": [
+        "@media (max-width: 767px) {.hero {display: block; }}",
+        "@media (min-width: 768px) {.hero {display: none; }}"
+      ],
+      "name": "t:names.hero",
+      "settings": {
+        "media_type_1": "image",
+        "image_1": "shopify://shop_images/ChatGPT_Image_Aug_8_2025_10_35_28_PM.png",
+        "media_type_2": "image",
+        "link": "",
+        "open_in_new_tab": false,
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "space-between",
+        "gap": 38,
+        "section_width": "page-width",
+        "section_height": "small",
         "section_height_custom": 50,
         "color_scheme": "scheme-1",
         "toggle_overlay": true,
@@ -1716,6 +1774,7 @@
   },
   "order": [
     "hero_rhMed7",
+    "hero_VPNRRa",
     "section_M3wytc",
     "section_NnXPnC",
     "product_list_4jqyPz",
