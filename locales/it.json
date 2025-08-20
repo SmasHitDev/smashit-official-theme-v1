@@ -282,5 +282,10 @@
       "success_moderated": "Commento pubblicato, in attesa di moderazione",
       "success": "Commento pubblicato"
     }
+  },
+  "shopify": {
+    "links": {
+      "powered_by_shopify": " "
+    }
   }
 }
