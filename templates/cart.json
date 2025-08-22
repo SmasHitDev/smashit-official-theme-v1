@@ -6,7 +6,8 @@
  * or related systems. Please exercise caution as any changes
  * made to this file may be overwritten.
  * ------------------------------------------------------------
- */{
+ */
+{
   "sections": {
     "cart-section": {
       "type": "main-cart",
@@ -58,7 +59,7 @@
       },
       "settings": {
         "section_width": "page-width",
-        "color_scheme": "",
+        "color_scheme": "scheme-249c1bc8-8dbb-4054-aedb-5412c04d9aae",
         "padding-block-start": 0,
         "padding-block-end": 0
       }
@@ -168,6 +169,7 @@
               "type": "_product-card-group",
               "name": "t:names.group",
               "settings": {
+                "link": "",
                 "open_in_new_tab": false,
                 "content_direction": "column",
                 "vertical_on_mobile": true,
@@ -286,6 +288,7 @@
         "max_products": 4,
         "columns": 4,
         "mobile_columns": "2",
+        "mobile_card_size": "60cqw",
         "columns_gap": 0,
         "rows_gap": 24,
         "icons_style": "none",
@@ -293,7 +296,7 @@
         "section_width": "page-width",
         "horizontal_alignment": "flex-start",
         "gap": 24,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-249c1bc8-8dbb-4054-aedb-5412c04d9aae",
         "padding-block-start": 48,
         "padding-block-end": 48
       }
