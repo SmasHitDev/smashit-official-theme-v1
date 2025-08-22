@@ -220,7 +220,7 @@
         "group_DVXcdm"
       ],
       "custom_css": [
-        "div {background-color: black;}"
+        "div {background-color: #000000E0;}"
       ],
       "name": "t:names.image_with_text",
       "settings": {
