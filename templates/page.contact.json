@@ -6,7 +6,8 @@
  * or related systems. Please exercise caution as any changes
  * made to this file may be overwritten.
  * ------------------------------------------------------------
- */{
+ */
+{
   "sections": {
     "section": {
       "type": "section",
@@ -15,6 +16,7 @@
           "type": "group",
           "name": "Header",
           "settings": {
+            "link": "",
             "open_in_new_tab": false,
             "content_direction": "column",
             "vertical_on_mobile": true,
@@ -152,9 +154,9 @@
         "vertical_alignment_flex_direction_column": "center",
         "gap": 12,
         "section_width": "page-width",
-        "section_height": "",
+        "section_height": "large",
         "section_height_custom": 50,
-        "color_scheme": "",
+        "color_scheme": "scheme-249c1bc8-8dbb-4054-aedb-5412c04d9aae",
         "background_media": "none",
         "video_position": "cover",
         "background_image_position": "cover",
