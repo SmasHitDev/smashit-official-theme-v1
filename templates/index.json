@@ -219,6 +219,9 @@
       "block_order": [
         "group_DVXcdm"
       ],
+      "custom_css": [
+        "div {background-color: black;}"
+      ],
       "name": "t:names.image_with_text",
       "settings": {
         "content_direction": "row",
