@@ -219,14 +219,6 @@
                   },
                   "blocks": {}
                 },
-                "social_link_FWePrD": {
-                  "type": "_social-link",
-                  "name": "TikTok",
-                  "settings": {
-                    "link": "https://www.tiktok.com"
-                  },
-                  "blocks": {}
-                },
                 "social_link_m7qatK": {
                   "type": "_social-link",
                   "name": "X / Twitter",
@@ -235,22 +227,12 @@
                     "link": "https://x.com"
                   },
                   "blocks": {}
-                },
-                "social_link_LYP83k": {
-                  "type": "_social-link",
-                  "name": "YouTube",
-                  "settings": {
-                    "link": "https://www.youtube.com/channel/UCMJbNRHNSzrubqxuf_RJE1w"
-                  },
-                  "blocks": {}
                 }
               },
               "block_order": [
                 "social_link_mwtLVB",
                 "social_link_MGWfiq",
-                "social_link_FWePrD",
-                "social_link_m7qatK",
-                "social_link_LYP83k"
+                "social_link_m7qatK"
               ]
             }
           },
