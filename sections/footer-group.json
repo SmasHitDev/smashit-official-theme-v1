@@ -262,6 +262,9 @@
         "group_MwNbVz",
         "footer_utilities_Gbke9W"
       ],
+      "custom_css": [
+        "div {color: #ff8d02;}"
+      ],
       "settings": {
         "content_direction": "column",
         "vertical_on_mobile": true,
@@ -273,7 +276,7 @@
         "gap": 0,
         "section_width": "page-width",
         "section_height": "",
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-249c1bc8-8dbb-4054-aedb-5412c04d9aae",
         "background_media": "none",
         "video_position": "cover",
         "background_image_position": "cover",
