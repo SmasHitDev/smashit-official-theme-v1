@@ -90,7 +90,7 @@
             "placement": "below_image",
             "horizontal_alignment": "center",
             "vertical_alignment": "flex-start",
-            "collection_card_gap": 0,
+            "collection_card_gap": 16,
             "inherit_color_scheme": false,
             "color_scheme": "scheme-249c1bc8-8dbb-4054-aedb-5412c04d9aae",
             "border": "solid",
