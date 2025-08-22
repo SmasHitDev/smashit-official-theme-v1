@@ -50,7 +50,7 @@
       "name": "t:names.hero",
       "settings": {
         "media_type_1": "image",
-        "image_1": "{{ collection.metafields.custom.banner_header.value }}",
+        "image_1": "shopify://shop_images/immagine-di-copertina-aggiornata.png",
         "media_type_2": "image",
         "link": "",
         "open_in_new_tab": false,
