@@ -245,7 +245,8 @@
         "footer_utilities_Gbke9W"
       ],
       "custom_css": [
-        "div {color: #ff8d02;}"
+        "div {color: #ff8d02;}",
+        "a {color: #ff8d02; }"
       ],
       "settings": {
         "content_direction": "column",
