@@ -55,7 +55,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<h2>Collezioni</h2>",
+                "text": "<h1>Merchandising Squadre Pallavolo - SmasHit Sport</h1>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -76,10 +76,37 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
+            },
+            "text_p9wU9p": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<h3>Benvenuto nella sezione dedicata al merchandising ufficiale delle nostre squadre associate. Qui trovi tutto l'abbigliamento e gli accessori delle tue squadre del cuore</h3>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "center",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
             }
           },
           "block_order": [
-            "text_wgAEay"
+            "text_wgAEay",
+            "text_p9wU9p"
           ]
         },
         "static-collection-card": {
