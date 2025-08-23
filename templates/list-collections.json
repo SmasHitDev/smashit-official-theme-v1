@@ -92,7 +92,7 @@
             "vertical_alignment": "flex-start",
             "collection_card_gap": 16,
             "inherit_color_scheme": false,
-            "color_scheme": "scheme-249c1bc8-8dbb-4054-aedb-5412c04d9aae",
+            "color_scheme": "scheme-2",
             "border": "solid",
             "border_width": 0,
             "border_opacity": 100,
@@ -163,7 +163,7 @@
         "icons_shape": "circle",
         "section_width": "page-width",
         "gap": 8,
-        "color_scheme": "scheme-249c1bc8-8dbb-4054-aedb-5412c04d9aae",
+        "color_scheme": "scheme-2",
         "padding-block-start": 60,
         "padding-block-end": 60
       }

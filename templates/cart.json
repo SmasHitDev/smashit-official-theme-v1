@@ -59,7 +59,7 @@
       },
       "settings": {
         "section_width": "page-width",
-        "color_scheme": "scheme-249c1bc8-8dbb-4054-aedb-5412c04d9aae",
+        "color_scheme": "scheme-2",
         "padding-block-start": 0,
         "padding-block-end": 0
       }
@@ -296,7 +296,7 @@
         "section_width": "page-width",
         "horizontal_alignment": "flex-start",
         "gap": 24,
-        "color_scheme": "scheme-249c1bc8-8dbb-4054-aedb-5412c04d9aae",
+        "color_scheme": "scheme-2",
         "padding-block-start": 48,
         "padding-block-end": 48
       }
