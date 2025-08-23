@@ -149,6 +149,7 @@
       "block_order": [
         "group_T9Emrg"
       ],
+      "custom_css": [],
       "name": "t:names.collections_grid",
       "settings": {
         "layout_type": "carousel",
