@@ -12,7 +12,7 @@
     "hero_ppN8bL": {
       "type": "hero",
       "custom_css": [
-        "@media screen and (min-width: 768px) {.hero {height: 100vh; min-height: 500px; }}",
+        "@media screen and (min-width: 768px) {.hero {height: 100vh; min-height: 100vh; }}",
         ".hero {width: 100%; height: 100%; object-fit: cover; object-position: center;}"
       ],
       "name": "t:names.hero",
