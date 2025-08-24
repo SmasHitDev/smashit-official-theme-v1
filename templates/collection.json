@@ -136,7 +136,7 @@
         "color_scheme": "scheme-2",
         "background_media": "image",
         "video_position": "cover",
-        "background_image": "shopify://shop_images/salussola-bg-waves.svg",
+        "background_image": "{{ collection.metafields.custom.background_squadra.value }}",
         "background_image_position": "cover",
         "border": "solid",
         "border_width": 1,
