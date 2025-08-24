@@ -63,7 +63,7 @@
             "wrap": "pretty",
             "color": "var(--color-foreground)",
             "background": true,
-            "background_color": "#d3cec517",
+            "background_color": "#d3cec579",
             "corner_radius": 0,
             "padding-block-start": 0,
             "padding-block-end": 0,
@@ -91,6 +91,7 @@
         "text_67aGJC",
         "button_d9WLam"
       ],
+      "custom_css": [],
       "name": "t:names.pull_quote",
       "settings": {
         "content_direction": "column",
@@ -109,7 +110,7 @@
         "video_position": "cover",
         "background_image": "{{ collection.metafields.custom.background_squadra.value }}",
         "background_image_position": "cover",
-        "border": "none",
+        "border": "solid",
         "border_width": 1,
         "border_opacity": 100,
         "border_radius": 0,
