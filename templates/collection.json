@@ -78,7 +78,7 @@
         "text_67aGJC": {
           "type": "text",
           "settings": {
-            "text": "<p></p><p>{{ closest.collection.description }}</p>",
+            "text": "<p></p>{{ closest.collection.description }}",
             "width": "100%",
             "max_width": "none",
             "alignment": "left",
@@ -92,7 +92,7 @@
             "color": "var(--color-foreground)",
             "background": true,
             "background_color": "#ffffff7d",
-            "corner_radius": 25,
+            "corner_radius": 20,
             "padding-block-start": 0,
             "padding-block-end": 0,
             "padding-inline-start": 0,
