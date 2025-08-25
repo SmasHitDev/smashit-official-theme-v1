@@ -17,7 +17,7 @@
           "name": "t:names.image",
           "settings": {
             "image": "shopify://shop_images/logo-smashit-sport-trasparente.png",
-            "link": "",
+            "link": "shopify://collections",
             "image_ratio": "landscape",
             "width": "custom",
             "custom_width": 70,
