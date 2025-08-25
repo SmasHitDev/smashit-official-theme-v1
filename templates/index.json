@@ -1456,7 +1456,7 @@
         "collection_list": [
           "novara-volley",
           "sallussola-volley",
-          "vigliano-volley-1"
+          "vigliano-volley"
         ],
         "layout_type": "carousel",
         "carousel_on_mobile": true,
@@ -1762,7 +1762,7 @@
         "collection_list": [
           "novara-volley",
           "sallussola-volley",
-          "vigliano-volley-1"
+          "vigliano-volley"
         ],
         "layout_type": "carousel",
         "carousel_on_mobile": false,
