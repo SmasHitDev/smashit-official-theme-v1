@@ -169,7 +169,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h1><strong>SmasHit Sport – Energia, Passione, Performance</strong></h1>",
+                "text": "<h1><strong>SmasHit Sport</strong></h1><h1><strong>Energia, Passione, Performance</strong></h1>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
