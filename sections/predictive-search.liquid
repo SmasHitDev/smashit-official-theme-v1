@@ -49,7 +49,7 @@
               role="listbox"
               aria-labelledby="predictive-search-queries"
             >
-              {%- for resource in predictive_search.resources.queries -%}
+              {%- for resource in predictive_search.resources.queries -%}{% comment %}EasylockdownFilterBegin{% endcomment %}{% capture easylockdownFilter %}{% render 'easylockdown_filter_collection' with resource, easylockdownRender: true, easylockdownItemSelectorOff: easylockdownItemSelectorOff %}{% endcapture %}{% assign easylockdownFilter = easylockdownFilter | strip %}{% if easylockdownFilter == 'continue' %}{% continue %}{% else %}{{ easylockdownFilter }}{% endif %}{% comment %}EasylockdownFilterEnd{% endcomment %}
                 <li
                   class="predictive-search-results__card--query"
                   ref="resultsItems[]"
