@@ -1,18 +1,5 @@
 {%- assign w_continue = 'no' -%}
-{% assign wlmHideItem_Product = false %}{% assign wlmLockedTags328468 = false %}
-{% for tag in customer.tags %}
-{% if tag == 'smashit_team' %}{% assign wlmLockedTags328468 = true %}{% endif %}
-{% endfor %}
-
-{% if wlm-product.id == 15224941773148 %} 
-{% unless customer %}
-{% assign  wlmHideItem_Product = true %}
-{% else %}
-{% unless wlmLockedTags328468 %}{% assign  wlmHideItem_Product = true %}{% endunless %}
-{% endunless %}
-{% endif %}
-
-
+{% assign wlmHideItem_Product = false %}
 
 {% if wlmHideItem_Product == true %}{% continue %}{% endif %}
 
