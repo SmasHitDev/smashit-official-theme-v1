@@ -4,7 +4,7 @@
   lang="{{ request.locale.iso_code }}"
 >
   <head>
-{% comment %}ElHeadStart{% endcomment %}{% unless request.design_mode %}{% comment %}EasylockdownHeadBegin{% endcomment %}{% capture elhRender %}{% render 'easylockdown_head', easylockdownRender: true, easylockdownOnlySpecialPriceSelector: easylockdownOnlySpecialPriceSelector, easylockdownCustomPriceSelector: easylockdownCustomPriceSelector %}{% endcapture %}{% assign elhRender = elhRender | split: '--elhResults--'%}{{ elhRender[0] }}{% comment %}EasylockdownHeadEnd{% endcomment %}{% endunless %}{% comment %}ElHeadEnd{% endcomment %}
+{% comment %}ElHeadStart{% endcomment %}{% unless request.design_mode %}{% comment %}EasylockdownHeadBegin{% endcomment %}{% capture elhRender %}{% render 'easylockdown_head', easylockdownRender: true, easylockdownOnlySpecialPriceSelector: easylockdownOnlySpecialPriceSelector, easylockdownCustomPriceSelector: easylockdownCustomPriceSelector %}{% endcapture %}{% assign elhRender = elhRender | split: '--elhResults--'%}{{ elhRender[0] }}{% comment %}EasylockdownHeadEnd{% endcomment %}{% endunless %}{% comment %}ElHeadEnd{% endcomment %}{% unless request.design_mode %}{% endunless %}
     {%- render 'stylesheets' -%}
 
     {%- if settings.favicon != blank -%}
@@ -51,7 +51,7 @@
       data-product-transition="{{ settings.transition_to_main_product }}"
       data-template="{{ template }}"
     >
-      {% comment %}ElBodyStart{% endcomment %}{% unless request.design_mode %}{% comment %}{{ content_for_layout }}{% endcomment %}{% render 'easylockdown_body', content_for_layout: content_for_layout, elhDefines: elhRender[1] %}{% else %} {{ content_for_layout }} {% endunless %}{% comment %}ElBodyEnd{% endcomment %}
+      {% unless request.design_mode %}{% comment %}ElBodyStart{% endcomment %}{% unless request.design_mode %}{% comment %}{{ content_for_layout }}{% endcomment %}{% render 'easylockdown_body', content_for_layout: content_for_layout, elhDefines: elhRender[1] %}{% else %} {{ content_for_layout }} {% endunless %}{% comment %}ElBodyEnd{% endcomment %}{% else %} {% comment %}ElBodyStart{% endcomment %}{% unless request.design_mode %}{% comment %}{{ content_for_layout }}{% endcomment %}{% render 'easylockdown_body', content_for_layout: content_for_layout, elhDefines: elhRender[1] %}{% else %} {{ content_for_layout }} {% endunless %}{% comment %}ElBodyEnd{% endcomment %} {% endunless %}
     </main>
 
     {% sections 'footer-group' %}
